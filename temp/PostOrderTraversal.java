@@ -1,6 +1,7 @@
+package temp;
 public class PostOrderTraversal {
     public static void postOrderTraversal(TreeNode root){
-        
+
         //Terminating condition
         if(root == null){
             return;

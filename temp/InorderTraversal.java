@@ -1,3 +1,4 @@
+package temp;
 public class InorderTraversal {
     //Inorder traversal
     public static void inOrderTraversal(TreeNode root){

@@ -1,3 +1,4 @@
+package temp;
 public class PreOrderTraversal {
     public static void preOrderTraversal(TreeNode root){
         //Terminating condition

@@ -1,3 +1,4 @@
+package temp;
 class TreeNode {
     //Assigning the property
     public int val;

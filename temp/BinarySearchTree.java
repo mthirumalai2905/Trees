@@ -1,3 +1,4 @@
+package temp;
 public class BinarySearchTree {
     TreeNode root;
 
