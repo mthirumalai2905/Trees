@@ -1,0 +1,22 @@
+|-Root
+|--Edges
+|---Leaves
+
+-------------------------Terminologies---------------------------------
+
+Root 
+Parent Node 
+Children Node
+Level
+Depth (Distance From the Root || The Level at which the node occcurs)
+Height (Distance From the Root to the Deepest Node)
+Degree (How many edges a node are connected to its child node)
+
+--------------------------Types of Trees--------------------------------
+
+Binary Tree (Each Node can have max of Two Nodes that is Degreee is 2)
+|-FULL BINARY TREE (it has either 0 child node or 2 child node)
+|-PERFECT BINARY TREE (it has exact 2 child nodes at same level)
+|-DEGENERATE TREE (it has exactly 1 child node)
+|-SKEWED TREE (Going in a particular direction hence left skewed or right skewed)
+
