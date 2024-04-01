@@ -11,6 +11,21 @@ class TreeNode {
         this.right = null;
     }
 
+    //Inorder traversal
+    public static void inOrderTraversal(TreeNode root){
+        //Terminating condition
+        if(root == null){
+            return;
+        }
+
+        //Traverse the left node
+        inOrderTraversal(root.left);
+        //Print the root node
+        System.out.println(root.val + " -> ");
+        //Go to the right node
+        inOrderTraversal(root.right);
+    }
+
    //main class
     public static void main(String[] args) {
         //creating the root node
